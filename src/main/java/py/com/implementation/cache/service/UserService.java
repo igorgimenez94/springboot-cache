@@ -1,9 +1,7 @@
 package py.com.implementation.cache.service;
 
-import java.util.List;
-
-import py.com.implementation.cache.model.User;
+import py.com.implementation.cache.model.ResponseDto;
 
 public interface UserService {
-	List<User> getUsersByCache(String id);
+	ResponseDto getUsersByCache(String id);
 }
